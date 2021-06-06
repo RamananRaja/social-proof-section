@@ -1,0 +1,165 @@
+@import url("https://fonts.google.com/specimen/Spartan");
+:root {
+  --col-darkMagenta: hsl(300, 43%, 22%);
+  --col-softPink: hsl(333, 80%, 67%);
+  --col-grayishMagenta: hsl(303, 10%, 53%);
+  --col-lightGrayishMagenta: hsl(300, 24%, 96%);
+  --col-white: hsl(0, 0%, 100%);
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  background-color: var(--col-white);
+  font-family: "Spartan", sans-serif;
+  font-size: 15px;
+}
+
+.sps-section-wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.images {
+  height: 100%;
+  width: 100%;
+  justify-content: left;
+  position: absolute;
+}
+.images .imgLeft {
+  margin-top: -50px;
+  margin-left: -50px;
+}
+.images .imgRight {
+  width: 1000px;
+  height: 500px;
+  margin-top: -265px;
+  margin-left: 335px;
+}
+
+.sps-content-container {
+  height: 450px;
+  width: 1100px;
+}
+
+.sps-top-content {
+  display: flex;
+  flex-direction: row;
+  height: 225px;
+}
+.sps-top-content .sps-top-left {
+  width: 550px;
+}
+.sps-top-content .sps-top-left .sps-title {
+  font-size: 43px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-right: 211px;
+  color: var(--col-darkMagenta);
+  font-family: "Spartan", sans-serif;
+}
+.sps-top-content .sps-top-left .sps-subtitle {
+  margin-top: -30px;
+  font-size: 15px;
+  font-weight: 500;
+  margin-right: 170px;
+  color: var(--col-grayishMagenta);
+}
+.sps-top-content .sps-top-right {
+  width: 550px;
+  color: var(--col-darkMagenta);
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+.sps-top-content .sps-top-right .sps-ratingBar {
+  background-color: var(--col-lightGrayishMagenta);
+  width: 400px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  border-radius: 5px;
+  padding-left: 25px;
+  margin: 5px;
+}
+.sps-top-content .sps-top-right .sps-ratingBar:nth-child(2) {
+  margin-left: 45px;
+}
+.sps-top-content .sps-top-right .sps-ratingBar:nth-child(3) {
+  margin-left: 90px;
+}
+.sps-top-content .sps-top-right .sps-ratingBar p {
+  padding-left: 5px;
+  padding-right: 10px;
+}
+.sps-top-content .sps-top-right .sps-ratingBar .sps-rateDetails {
+  padding-left: 10px;
+}
+
+.sps-bottom-content {
+  height: 225px;
+  width: 1100px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  margin-right: 5px;
+}
+
+.sps-card {
+  padding: 25px;
+  background-color: var(--col-darkMagenta);
+  width: 280px;
+  height: 150px;
+  border-radius: 5px;
+  margin-right: auto;
+}
+.sps-card:nth-child(2) {
+  margin-top: 15px;
+}
+.sps-card:nth-child(3) {
+  margin-top: 30px;
+}
+
+.sps-profile-holder {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+}
+.sps-profile-holder .sps-profile-avatar {
+  margin-right: 16px;
+}
+.sps-profile-holder .sps-profile-avatar img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: white;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.sps-profile-holder .sps-profile-name-holder {
+  display: flex;
+  flex-direction: column;
+}
+.sps-profile-holder .sps-profile-name-holder .sps-profile-name {
+  margin-top: 0;
+  font-weight: 700;
+  color: var(--col-white);
+}
+.sps-profile-holder .sps-profile-name-holder .sps-profile-verification {
+  margin-top: -10px;
+  font-size: 13.5px;
+  color: var(--col-softPink);
+}
+
+.sps-profile-details {
+  color: var(--col-lightGrayishMagenta);
+}/*# sourceMappingURL=main.css.map */
