@@ -38,7 +38,7 @@ body {
 .images .imgRight {
   width: 1000px;
   height: 500px;
-  margin-top: -265px;
+  margin-top: -165px;
   margin-left: 335px;
 }
 
@@ -50,10 +50,10 @@ body {
 .sps-top-content {
   display: flex;
   flex-direction: row;
-  height: 225px;
+  height: 50%;
 }
 .sps-top-content .sps-top-left {
-  width: 550px;
+  width: 100%;
 }
 .sps-top-content .sps-top-left .sps-title {
   font-size: 43px;
@@ -62,6 +62,9 @@ body {
   margin-right: 211px;
   color: var(--col-darkMagenta);
   font-family: "Spartan", sans-serif;
+}
+.sps-top-content .sps-top-left .tilte-bold {
+  font-size: 50px;
 }
 .sps-top-content .sps-top-left .sps-subtitle {
   margin-top: -30px;
@@ -162,4 +165,54 @@ body {
 
 .sps-profile-details {
   color: var(--col-lightGrayishMagenta);
+}
+
+@media only screen and (max-width: 1024px) {
+  .images .imgRight {
+    margin-top: 390px;
+    margin-left: -460px;
+  }
+
+  .sps-content-container {
+    display: block;
+    height: 100%;
+    width: 100%;
+    overflow: none;
+  }
+
+  .sps-top-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20% 5% 35% 0%;
+    text-align: center;
+  }
+  .sps-top-content .sps-top-left {
+    width: 100%;
+  }
+  .sps-top-content .sps-top-left .sps-title {
+    margin-right: 0px;
+    padding: 0;
+  }
+  .sps-top-content .sps-top-left .sps-subtitle {
+    margin-right: 0px;
+  }
+  .sps-top-content .sps-top-right {
+    width: 340px;
+  }
+  .sps-top-content .sps-top-right .sps-ratingBar {
+    width: auto;
+  }
+  .sps-top-content .sps-top-right .sps-ratingBar:nth-child(2) {
+    margin-left: auto;
+  }
+  .sps-top-content .sps-top-right .sps-ratingBar:nth-child(3) {
+    margin-left: auto;
+  }
+
+  .sps-bottom-content {
+    display: block;
+    padding-left: 32px;
+  }
 }/*# sourceMappingURL=main.css.map */
