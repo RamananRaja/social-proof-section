@@ -193,7 +193,6 @@ body {
     display: block;
     height: 100%;
     width: 100%;
-    overflow: none;
   }
 
   .sps-top-content {
@@ -221,12 +220,18 @@ body {
       width: 340px;
       .sps-ratingBar {
         width: auto;
+        height: auto;
+        .sps-star {
+          margin-top: 15px;
+        }
 
+        display: flex;
+        flex-direction: column;
         &:nth-child(2) {
-          margin-left: auto;
+          margin-left: 0%;
         }
         &:nth-child(3) {
-          margin-left: auto;
+          margin-left: 0%;
         }
       }
     }
